@@ -142,3 +142,22 @@ Received Import Request.
   path: Assets/SpawnLocation.prefab
   artifactKey: Guid(df42dd5a69bcbd94ca62296a9eda35c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SpawnLocation.prefab using Guid(df42dd5a69bcbd94ca62296a9eda35c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44969adee3f4fb0fa669db9dd4a959c1') in 0.046253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3215.547033 seconds.
+  path: Assets/BasicEnemy (1).prefab
+  artifactKey: Guid(84bee491390624f4d8309bedc7660234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BasicEnemy (1).prefab using Guid(84bee491390624f4d8309bedc7660234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f82321a5f407033b5d0e3fa5a68a456') in 0.096320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/FlyingHomer.prefab
+  artifactKey: Guid(bf5a4123731f92a4aa481906f5922162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlyingHomer.prefab using Guid(bf5a4123731f92a4aa481906f5922162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194a8358f1d22fa664e3cc9d19eca88a') in 0.030957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/SingleGun.prefab
+  artifactKey: Guid(73ca5b398d5a4644c96dcea6da0790e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SingleGun.prefab using Guid(73ca5b398d5a4644c96dcea6da0790e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a97dc36b5f23a7c9bfeb46cd43ee483') in 0.029666 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
