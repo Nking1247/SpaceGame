@@ -4,31 +4,40 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public Vector3[] EnemySpawnGroups;
+    [Header("Set the group type to be exactly 'A' or 'B'.\nDon't forget the collider must be tagged as 'Player' for the spawn to be triggered.")]
     public GameObject EnemyA1;
     public GameObject EnemyA2;
     public GameObject EnemyB1;
     public GameObject EnemyB2;
     public GameObject EnemyB3;
+    public char groupType;
 
-    private void Start()
+
+    private void OnTriggerEnter(Collider other)
     {
-        for(int i = EnemySpawnGroups.Length - 1; i >= 0; i--)
+        
+        if(other.gameObject.tag == "Player")
         {
-            if(i % 2 == 0)
+            if (groupType == 'A')
             {
-                Instantiate(EnemyB1, EnemySpawnGroups[i] + new Vector3(2,0,0), Quaternion.identity);
-                Instantiate(EnemyB1, EnemySpawnGroups[i] + new Vector3(-2, 0, 0), Quaternion.identity);
-                Instantiate(EnemyB2, EnemySpawnGroups[i] + new Vector3(2, 4, 0), Quaternion.identity);
-                Instantiate(EnemyB3, EnemySpawnGroups[i] + new Vector3(-2, 4, 0), Quaternion.identity);
+                Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                Instantiate(EnemyA2, transform.position, Quaternion.identity);
+                Instantiate(EnemyA2, transform.position, Quaternion.identity);
+            }
+            else if (groupType == 'B')
+            {
+                Instantiate(EnemyB1, transform.position, Quaternion.identity);
+                Instantiate(EnemyB1, transform.position, Quaternion.identity);
+                Instantiate(EnemyB2, transform.position, Quaternion.identity);
+                Instantiate(EnemyB3, transform.position, Quaternion.identity);
             }
             else
             {
-                Instantiate(EnemyA1, EnemySpawnGroups[i] + new Vector3(2, 0, 0), Quaternion.identity);
-                Instantiate(EnemyA1, EnemySpawnGroups[i] + new Vector3(-2, 0, 0), Quaternion.identity);
-                Instantiate(EnemyA2, EnemySpawnGroups[i] + new Vector3(2, 4, 0), Quaternion.identity);
-                Instantiate(EnemyA2, EnemySpawnGroups[i] + new Vector3(-2, 4, 0), Quaternion.identity);
+                Debug.LogError("Group type not set correctly.");
             }
+
         }
+
     }
 }
