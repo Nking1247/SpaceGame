@@ -11,12 +11,19 @@ public class EnemySpawner : MonoBehaviour
     public GameObject EnemyB2;
     public GameObject EnemyB3;
     public char groupType;
+    bool coolDown;
+
+    IEnumerator timer() 
+    {
+        yield return new WaitForSeconds(30);
+        coolDown = false;
+    }
 
 
     private void OnTriggerEnter(Collider other)
     {
         
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" && !coolDown)
         {
             if (groupType == 'A')
             {
@@ -36,8 +43,10 @@ public class EnemySpawner : MonoBehaviour
             {
                 Debug.LogError("Group type not set correctly.");
             }
-
+            coolDown = true;
+            timer();
         }
 
     }
+
 }
