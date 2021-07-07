@@ -9,6 +9,7 @@ public class AmmoCounter : MonoBehaviour
     private void Start()
     {
         text = GetComponent<Text>();
+        AmmoUpdate(29);
     }
     public void AmmoUpdate(float bulletCount)
     {
