@@ -15,11 +15,11 @@ C:/Users/tobst/OneDrive/Documents/GitHub/SpaceGame/iDTechSpaceGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55680
+54252
 Successfully changed project path to: C:/Users/tobst/OneDrive/Documents/GitHub/SpaceGame/iDTechSpaceGame
 C:/Users/tobst/OneDrive/Documents/GitHub/SpaceGame/iDTechSpaceGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 184.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 166.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.12f1 (afcadd793de6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003933 seconds.
+Registered in 0.004845 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 110.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 245.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.442 seconds
+- Completed reload, in  3.802 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2442ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (3802ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (698ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1305ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (352ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (770ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (245ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011422 seconds.
+Registered in 0.017007 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tobst\OneDrive\Documents\GitHub\SpaceGame\iDTechSpaceGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tobst\OneDrive\Documents\GitHub\SpaceGame\iDTechSpaceGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.736 seconds
+- Completed reload, in  2.079 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1736ms)
-		BeginReloadAssembly (226ms)
+	ReloadAssembly (2081ms)
+		BeginReloadAssembly (259ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1400ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1691ms)
+			LoadAssemblies (144ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (565ms)
+			SetupTypeCache (732ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (481ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (545ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (359ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (402ms)
 				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
@@ -115,14 +115,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.1 MB.
-System memory in use after: 106.3 MB.
+Unloading 2947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3394.
-Total: 3.173600 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.182100 ms MarkObjects: 2.609700 ms  DeleteObjects: 0.079700 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 3.322400 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.194500 ms MarkObjects: 2.642900 ms  DeleteObjects: 0.123100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,24 +136,96 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TripleGuns.prefab
-  artifactKey: Guid(e384231a349deb9438374e6401fbce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TripleGuns.prefab using Guid(e384231a349deb9438374e6401fbce84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00d4c6b21b4c350c5c9a48f415712fd') in 0.148168 seconds 
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047340d7825956365556a88d2ae32fed') in 0.143137 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000534 seconds.
-  path: Assets/PortalIcon.png
-  artifactKey: Guid(79f8fdac8ad62814c9419264a06d8c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalIcon.png using Guid(79f8fdac8ad62814c9419264a06d8c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74492196fa06cf4c33bb78002f712bb') in 0.074158 seconds 
+  Time since last request: 2.517224 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(08ebfc8a677ace64ba79b5baea3ee949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(08ebfc8a677ace64ba79b5baea3ee949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895852bac9da99b35797c2bc35d2ce21') in 0.023464 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/Bullet.png
-  artifactKey: Guid(dc5175a69cbef604e864d661037cc170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bullet.png using Guid(dc5175a69cbef604e864d661037cc170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8054428a5f17d579f5ace6f228e48067') in 0.044168 seconds 
+  Time since last request: 22.702700 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2992a59eef947a08ba1cebfe1f802e3') in 0.039125 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.232427 seconds.
-  path: Assets/Deep_In_Space/Deep_In_Space.wav
-  artifactKey: Guid(ad403fe5cb1141c4db962f01954ad170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Deep_In_Space/Deep_In_Space.wav using Guid(ad403fe5cb1141c4db962f01954ad170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb875adfa98843eb6bbd01063eb46e2') in 0.063825 seconds 
+  Time since last request: 1.304417 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(4f694b1911e038f4dbf712bcb1c20715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(4f694b1911e038f4dbf712bcb1c20715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73d1f5b56a6e21ea569aba11b9465c0') in 0.028686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.493614 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(296deda7f3ca249428415d83d4f69f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(296deda7f3ca249428415d83d4f69f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c250fc157fec295a28a490c65fec28f') in 0.026088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.890699 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8e66c4a0ad46329433b2090735ab6c') in 0.037616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.404479 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682ce03be7700d739a8a43874e117bee') in 0.047117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.222500 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97ab60cd3e601bde20916da5edaff7f') in 0.051246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.470361 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b779ef4b8172084bbf45959dd7bc4a') in 0.038518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.478125 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc26898ffcaa97855ee8eead128c27f') in 0.039161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.051619 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3362fa25c0ff528437fc55c8d524dfe1') in 0.044804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.185049 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c55e65a2d60a73be42203d657e42779') in 0.037310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.803430 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b015ebdaa986eb2bd3900a441014046') in 0.053637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.774968 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23820475e10fb5111b85397e84610fe') in 0.035127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.442043 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ac47ef159a717e5932080c288c960') in 0.044368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.223221 seconds.
+  path: Assets/BossWorld1.prefab
+  artifactKey: Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BossWorld1.prefab using Guid(266ca48b79c965744b59f241314cadc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c332664a0cbc39dcb5a3b5ec6554368') in 0.034527 seconds 
