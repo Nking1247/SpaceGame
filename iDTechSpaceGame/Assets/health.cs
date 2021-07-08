@@ -23,7 +23,7 @@ public class health : MonoBehaviour
             }
         }
     }
-    void OnCollisionEnter(Collision col)
+    void OnCollisionStay(Collision col)
     {
         print(col.gameObject.name);
         if (col.gameObject.tag == "homer" && Player && canouch)
@@ -36,6 +36,16 @@ public class health : MonoBehaviour
             Invoke("cancanouch", 1);
             canouch = false;
         }
+        if (col.gameObject.tag == "Enemy" && Player && canouch)
+        {
+            print(col.gameObject.name);
+            healthnum--;
+            //col.gameObject.GetComponent<coin>().particlespawn();
+            print(healthnum);
+            Invoke("cancanouch", 1);
+            canouch = false;
+        }
+
         if (col.gameObject.tag == "bullet")
         {
             print(col.gameObject.name);

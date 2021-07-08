@@ -73,7 +73,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722512294827874581}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21860ce98a0daf24e8f000e1927c0b29, type: 3}
   m_Name: 
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f279c2fafe2c044a924b765effba9de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthnum: 1
+  healthnum: 5
   Player: 0
   canouch: 1
   part: {fileID: 867446160329760323, guid: 418d533a5b416d9488992fbb2bb9d4da, type: 3}
