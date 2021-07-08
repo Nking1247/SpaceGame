@@ -12,6 +12,8 @@ public class EnemySpawner : MonoBehaviour
     public GameObject EnemyB3;
     public char groupType;
     bool coolDown;
+    public Transform[] waypoints;
+    public GameObject currentenemy;
 
     IEnumerator timer() 
     {
@@ -27,8 +29,10 @@ public class EnemySpawner : MonoBehaviour
         {
             if (groupType == 'A')
             {
-                Instantiate(EnemyA1, transform.position, Quaternion.identity);
-                Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                currentenemy = Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                currentenemy.GetComponent<enemy>().spawner = this;
+                currentenemy = Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                currentenemy.GetComponent<enemy>().spawner = this;
                 Instantiate(EnemyA2, transform.position, Quaternion.identity);
                 Instantiate(EnemyA2, transform.position, Quaternion.identity);
             }
