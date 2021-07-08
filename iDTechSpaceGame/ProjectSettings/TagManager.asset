@@ -9,6 +9,7 @@ TagManager:
   - part
   - bullet
   - homer
+  - asteroid
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - userbulllet
   - 
   - 
   - 

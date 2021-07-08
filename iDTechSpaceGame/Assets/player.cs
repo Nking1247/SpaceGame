@@ -45,7 +45,7 @@ public class player : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.AddRelativeForce(Vector3.right * -speed);
+            rb.AddRelativeForce(Vector3.right * speed);
         }
         float y = Input.GetAxis("Mouse X");
         float x = Input.GetAxis("Mouse Y") * ysensitivity;
@@ -66,5 +66,6 @@ public class player : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        
     }
 }
