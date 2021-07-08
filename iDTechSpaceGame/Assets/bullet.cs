@@ -8,7 +8,7 @@ public class bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("destroy", 5);
+        Destroy(gameObject, 5);
     }
 
     // Update is called once per frame
@@ -18,6 +18,5 @@ public class bullet : MonoBehaviour
     }
     void destroy()
     {
-        Destroy(gameObject);
     }
 }

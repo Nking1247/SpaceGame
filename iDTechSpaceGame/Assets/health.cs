@@ -25,8 +25,10 @@ public class health : MonoBehaviour
     }
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Enemy" && Player && canouch)
+        print(col.gameObject.name);
+        if (col.gameObject.tag == "homer" && Player && canouch)
         {
+            print(col.gameObject.name);
             healthnum--;
             //col.gameObject.GetComponent<coin>().particlespawn();
             print(healthnum);
@@ -34,8 +36,9 @@ public class health : MonoBehaviour
             Invoke("cancanouch", 1);
             canouch = false;
         }
-        if (col.gameObject.tag == "bullet" && canouch)
+        if (col.gameObject.tag == "bullet")
         {
+            print(col.gameObject.name);
             healthnum--;
             //col.gameObject.GetComponent<coin>().particlespawn();
             print(healthnum);
