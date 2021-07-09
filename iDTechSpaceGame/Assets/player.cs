@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
@@ -13,10 +14,12 @@ public class player : MonoBehaviour
     public Rigidbody rb;
     public float xsensitivity;
     public float ysensitivity;
+    public GameObject portaltext;
+    PortalPieceScript portalscript;
     // Start is called before the first frame update
     void Start()
     {
-
+        portalscript = portaltext.GetComponent<PortalPieceScript>();
     }
 
     // Update is called once per frame
@@ -59,8 +62,9 @@ public class player : MonoBehaviour
         {
             parts++;
             //col.gameObject.GetComponent<coin>().particlespawn();
-            print(parts);
+            portalscript.PieceCount(parts);
             Destroy(col.gameObject);
+
         }
         if (col.gameObject.tag == "portal")
         {

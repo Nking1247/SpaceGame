@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class gun : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class gun : MonoBehaviour
     public int ammo;
     public int maxammo;
     public bool canreload;
+    AmmoCounter UIAMMO;
+    public GameObject ammotext;
 
     //For Shooting Position
     public Camera shootCam;
@@ -23,7 +26,8 @@ public class gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        UIAMMO = ammotext.GetComponent<AmmoCounter>();
+        UIAMMO.AmmoUpdate(ammo);
     }
 
     // Update is called once per frame
@@ -54,6 +58,8 @@ public class gun : MonoBehaviour
             canshoot = false;
             Invoke("cancanshoot", 1);
             ammo--;
+            UIAMMO.AmmoUpdate(ammo);
+
         }
         if (ammo == 0 && canreload)
         {
@@ -68,6 +74,7 @@ public class gun : MonoBehaviour
         canreload = true;
         canshoot = true;
         ammo = maxammo;
+        UIAMMO.AmmoUpdate(ammo);
     }
     void cancanshoot()
     {
