@@ -15,11 +15,11 @@ C:/Users/tobst/OneDrive/Documents/GitHub/SpaceGame/iDTechSpaceGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57153
+57430
 Successfully changed project path to: C:/Users/tobst/OneDrive/Documents/GitHub/SpaceGame/iDTechSpaceGame
 C:/Users/tobst/OneDrive/Documents/GitHub/SpaceGame/iDTechSpaceGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 210.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.12f1 (afcadd793de6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,94 +35,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003357 seconds.
+Registered in 0.003455 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 148.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 124.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.354 seconds
+- Completed reload, in  2.790 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4355ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (2790ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (8ms)
-		EndReloadAssembly (1326ms)
-			LoadAssemblies (175ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (501ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (603ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (371ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (149ms)
+				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.038030 seconds.
+Registered in 0.009482 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tobst\OneDrive\Documents\GitHub\SpaceGame\iDTechSpaceGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tobst\OneDrive\Documents\GitHub\SpaceGame\iDTechSpaceGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.181 seconds
+- Completed reload, in  1.836 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3181ms)
-		BeginReloadAssembly (437ms)
+	ReloadAssembly (1836ms)
+		BeginReloadAssembly (273ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (2564ms)
-			LoadAssemblies (272ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1467ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (976ms)
+			SetupTypeCache (604ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (132ms)
-			SetupLoadedEditorAssemblies (968ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (797ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2962 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 106.7 MB.
 System memory in use after: 106.9 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3411.
-Total: 7.848100 ms (FindLiveObjects: 2.060200 ms CreateObjectMapping: 0.512100 ms MarkObjects: 5.175000 ms  DeleteObjects: 0.096300 ms)
+Total: 3.101400 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.190400 ms MarkObjects: 2.519200 ms  DeleteObjects: 0.078300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,36 +136,95 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/CrosshairSpaceGameArt.png
-  artifactKey: Guid(b095f3aaab153dc408a6dae1d7476067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CrosshairSpaceGameArt.png using Guid(b095f3aaab153dc408a6dae1d7476067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78ab268276476c682d31a16b2b184a8') in 0.309560 seconds 
+  path: Assets/FlyingHomer.prefab
+  artifactKey: Guid(bf5a4123731f92a4aa481906f5922162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlyingHomer.prefab using Guid(bf5a4123731f92a4aa481906f5922162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0712a5e2405c2debf5d9c61d8f283fbe') in 0.191010 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.141898 seconds.
-  path: Assets/Prefabs/bullet.prefab
-  artifactKey: Guid(9cb09fe331551f744b8e54d659a14e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/bullet.prefab using Guid(9cb09fe331551f744b8e54d659a14e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf061c0fafb2d870509d2029af2f12b6') in 0.062807 seconds 
+  Time since last request: 20.892430 seconds.
+  path: Assets/Scenes/AsteroidGameWithAsteroids.unity
+  artifactKey: Guid(296deda7f3ca249428415d83d4f69f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AsteroidGameWithAsteroids.unity using Guid(296deda7f3ca249428415d83d4f69f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acdeafc2aca105d36d9ed8428c3ddb4') in 0.020656 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Prefabs/portal part.prefab
-  artifactKey: Guid(418d533a5b416d9488992fbb2bb9d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/portal part.prefab using Guid(418d533a5b416d9488992fbb2bb9d4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9065e4b3060141dba0e20696d138b3d4') in 0.071649 seconds 
+  Time since last request: 211.114166 seconds.
+  path: Assets/player.cs
+  artifactKey: Guid(ed609de0287fbec448b477abd310e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player.cs using Guid(ed609de0287fbec448b477abd310e3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e5ad17553fb463b969624c3165f2e3') in 0.016103 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014798 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tobst\OneDrive\Documents\GitHub\SpaceGame\iDTechSpaceGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tobst\OneDrive\Documents\GitHub\SpaceGame\iDTechSpaceGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2787ms)
+		BeginReloadAssembly (326ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (2299ms)
+			LoadAssemblies (288ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (814ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2956 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.4 MB.
+System memory in use after: 110.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3424.
+Total: 15.097900 ms (FindLiveObjects: 4.150500 ms CreateObjectMapping: 1.594400 ms MarkObjects: 9.264500 ms  DeleteObjects: 0.071200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000725 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(3324bdb15ff82c14aa7f63c1e45072a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(3324bdb15ff82c14aa7f63c1e45072a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27a505d71a0d096a37f8623eada5b0a') in 0.056119 seconds 
+  Time since last request: 75.033775 seconds.
+  path: Assets/AmmoCounter.cs
+  artifactKey: Guid(f13f122e25d29e8458dec0f7924dfb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AmmoCounter.cs using Guid(f13f122e25d29e8458dec0f7924dfb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc95782272e7969b791e0b0ddeb1b8c') in 0.056426 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(28936479bcc19d844b349ecd5cb473de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(28936479bcc19d844b349ecd5cb473de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916b61356584b6f43cddba128157c461') in 0.071160 seconds 
+  Time since last request: 0.589175 seconds.
+  path: Assets/bullet.cs
+  artifactKey: Guid(96d9512cd7540d849815ef20143679ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bullet.cs using Guid(96d9512cd7540d849815ef20143679ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed62413c2d1ed637f1baa501976bbe2') in 0.040591 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.180182 seconds.
-  path: Assets/BasicEnemy (1).prefab
-  artifactKey: Guid(84bee491390624f4d8309bedc7660234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BasicEnemy (1).prefab using Guid(84bee491390624f4d8309bedc7660234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552581d1c66099635c1e1e89aac8958d') in 0.038532 seconds 
+  Time since last request: 66.873186 seconds.
+  path: Assets/gun.cs
+  artifactKey: Guid(b4e34e71309bad64f849309a1f6ebf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun.cs using Guid(b4e34e71309bad64f849309a1f6ebf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec9f001fff10917593af0867fb7f99') in 0.032968 seconds 
