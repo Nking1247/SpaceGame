@@ -27,9 +27,9 @@ public class LeaveTimer : MonoBehaviour
                 countDownTime -= Time.deltaTime;
                 timerText.text = $"You Have Left The Play Area \n {countDownTime.ToString("0.00")}";
             
-            if (countDownTime <= 0)
+            if (countDownTime <= 0.02)
             {
-                SceneManager.LoadScene("GameOver");
+                SceneManager.LoadScene("YouHaveDied");
             }
         }
     }

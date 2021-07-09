@@ -8,7 +8,7 @@ public class bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("destroy", 5);
+        Invoke("destroy", 20);
     }
 
     // Update is called once per frame
