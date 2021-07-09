@@ -38,7 +38,7 @@ public class health : MonoBehaviour
         {
             //print(col.gameObject.name);
             healthnum--;
-            healthchange.HealthChange(healthnum * 100);
+            healthchange.HealthChange(healthnum);
             //col.gameObject.GetComponent<coin>().particlespawn();
             //print(healthnum);
             Destroy(col.gameObject);
@@ -50,7 +50,7 @@ public class health : MonoBehaviour
         {
             //print(col.gameObject.name);
             healthnum--;
-            healthchange.HealthChange(healthnum * 100);
+            healthchange.HealthChange(healthnum);
             //col.gameObject.GetComponent<coin>().particlespawn();
             //print(healthnum);
             Invoke("cancanouch", 1);
@@ -61,7 +61,10 @@ public class health : MonoBehaviour
         {
             //print(col.gameObject.name);
             healthnum--;
-            healthchange.HealthChange(healthnum * 100);
+            if (Player)
+            {
+                healthchange.HealthChange(healthnum);
+            }
             //col.gameObject.GetComponent<coin>().particlespawn();
             //print(healthnum);
             Destroy(col.gameObject);
