@@ -14,44 +14,44 @@ public class health : MonoBehaviour
         {
             if (Player)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene("YouHaveDied");
             }
             else
             {
                 Instantiate(part, transform.position, Quaternion.identity);
-                gameObject.SetActive(false);
+                Destroy(gameObject);
             }
         }
     }
     void OnCollisionStay(Collision col)
     {
-        print(col.gameObject.name);
+        //print(col.gameObject.name);
         if (col.gameObject.tag == "homer" && Player && canouch)
         {
-            print(col.gameObject.name);
+            //print(col.gameObject.name);
             healthnum--;
             //col.gameObject.GetComponent<coin>().particlespawn();
-            print(healthnum);
+            //print(healthnum);
             Destroy(col.gameObject);
             Invoke("cancanouch", 1);
             canouch = false;
         }
         if (col.gameObject.tag == "Enemy" && Player && canouch)
         {
-            print(col.gameObject.name);
+            //print(col.gameObject.name);
             healthnum--;
             //col.gameObject.GetComponent<coin>().particlespawn();
-            print(healthnum);
+            //print(healthnum);
             Invoke("cancanouch", 1);
             canouch = false;
         }
 
         if (col.gameObject.tag == "bullet")
         {
-            print(col.gameObject.name);
+            //print(col.gameObject.name);
             healthnum--;
             //col.gameObject.GetComponent<coin>().particlespawn();
-            print(healthnum);
+            //print(healthnum);
             Destroy(col.gameObject);
             Invoke("cancanouch", 1);
             canouch = false;
