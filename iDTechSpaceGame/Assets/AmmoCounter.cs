@@ -9,10 +9,10 @@ public class AmmoCounter : MonoBehaviour
     private void Start()
     {
         text = GetComponent<Text>();
-        AmmoUpdate(29);
+        
     }
     public void AmmoUpdate(float bulletCount)
     {
-        text.text = bulletCount.ToString() + "/40";
+        text.text = bulletCount.ToString() + "/5";
     }
 }

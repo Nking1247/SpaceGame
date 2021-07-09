@@ -8,6 +8,14 @@ public class health : MonoBehaviour
     public bool Player;
     public bool canouch;
     public GameObject part;
+    HealthBarScript healthchange;
+    public GameObject HealthBar;
+
+    private void Start()
+    {
+
+        healthchange = HealthBar.GetComponent<HealthBarScript>();
+    }
     void Update()
     {
         if (healthnum == 0)
@@ -30,16 +38,19 @@ public class health : MonoBehaviour
         {
             print(col.gameObject.name);
             healthnum--;
+            healthchange.HealthChange(healthnum * 100);
             //col.gameObject.GetComponent<coin>().particlespawn();
             print(healthnum);
             Destroy(col.gameObject);
             Invoke("cancanouch", 1);
             canouch = false;
+
         }
         if (col.gameObject.tag == "Enemy" && Player && canouch)
         {
             print(col.gameObject.name);
             healthnum--;
+            healthchange.HealthChange(healthnum * 100);
             //col.gameObject.GetComponent<coin>().particlespawn();
             print(healthnum);
             Invoke("cancanouch", 1);
@@ -50,6 +61,7 @@ public class health : MonoBehaviour
         {
             print(col.gameObject.name);
             healthnum--;
+            healthchange.HealthChange(healthnum * 100);
             //col.gameObject.GetComponent<coin>().particlespawn();
             print(healthnum);
             Destroy(col.gameObject);
