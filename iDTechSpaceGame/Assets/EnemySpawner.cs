@@ -12,6 +12,8 @@ public class EnemySpawner : MonoBehaviour
     public GameObject EnemyB3;
     public char groupType;
     bool coolDown;
+    public Transform[] waypoints;
+    public GameObject currentenemy;
 
     IEnumerator timer() 
     {
@@ -27,8 +29,10 @@ public class EnemySpawner : MonoBehaviour
         {
             if (groupType == 'A')
             {
-                Instantiate(EnemyA1, transform.position, Quaternion.identity);
-                Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                currentenemy = Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                currentenemy.GetComponent<enemy>().spawner = this;
+                currentenemy = Instantiate(EnemyA1, transform.position, Quaternion.identity);
+                currentenemy.GetComponent<enemy>().spawner = this;
                 Instantiate(EnemyA2, transform.position, Quaternion.identity);
                 Instantiate(EnemyA2, transform.position, Quaternion.identity);
             }
@@ -36,8 +40,8 @@ public class EnemySpawner : MonoBehaviour
             {
                 Instantiate(EnemyB1, transform.position, Quaternion.identity);
                 Instantiate(EnemyB1, transform.position, Quaternion.identity);
-                Instantiate(EnemyB2, transform.position, Quaternion.identity);
-                Instantiate(EnemyB3, transform.position, Quaternion.identity);
+                Instantiate(EnemyB2, transform.position, Quaternion.identity); //I would like to change this to A1 to work with the "Rare" Spawner
+                Instantiate(EnemyB3, transform.position, Quaternion.identity); //I would like to change this to A1 to work with the "Rare" Spawner
             }
             else
             {

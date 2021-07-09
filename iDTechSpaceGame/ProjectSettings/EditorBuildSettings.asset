@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c259bbe679cf73e4aacad711abdcb30f
+  - enabled: 1
+    path: Assets/Scenes/AsteroidGameWithAsteroids.unity
+    guid: 296deda7f3ca249428415d83d4f69f4b
+  - enabled: 1
+    path: Assets/Scenes/YouHaveDied.unity
+    guid: 6140d126193f03a419bea452d79f0cdb
+  - enabled: 1
+    path: Assets/Scenes/PlayerScene.unity
+    guid: 59f50235fa0bb0d4098d00e6151b7fdc
   m_configObjects: {}
