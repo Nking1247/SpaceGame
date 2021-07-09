@@ -5,21 +5,18 @@ using UnityEngine.UI;
 
 public class HealthBarScript : MonoBehaviour
 {
-    RectTransform healthbarwidth;
-    public Transform Background;
+    public Image healthbarwidth;
+    
 
 
-    private void Start()
-    {
-        healthbarwidth = GetComponent<RectTransform>();
-
-    }
+    
 
 
     public void HealthChange(float health)
     {
         
-        healthbarwidth.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, health);
-        healthbarwidth.position = Background.position + new Vector3(healthbarwidth.offsetMax.x/2,0,0);
+        
+        healthbarwidth.fillAmount = health/5;
+        
     }
 }
