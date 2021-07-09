@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 5595694627020324396}
   - component: {fileID: 1758961758890903951}
   - component: {fileID: 1031847247888121506}
-  m_Layer: 0
+  - component: {fileID: 8208244242662756798}
+  - component: {fileID: 2344035839412645969}
+  m_Layer: 6
   m_Name: BasicEnemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +46,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -64,6 +66,38 @@ CapsuleCollider:
   m_Height: 4
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8208244242662756798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722512294827874581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21860ce98a0daf24e8f000e1927c0b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  speed: 5
+  spawner: {fileID: 0}
+  targetpos: {x: 0, y: 0, z: 0}
+--- !u!114 &2344035839412645969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722512294827874581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f279c2fafe2c044a924b765effba9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthnum: 5
+  Player: 0
+  canouch: 1
+  part: {fileID: 867446160329760323, guid: 418d533a5b416d9488992fbb2bb9d4da, type: 3}
 --- !u!1 &2885010353016976548
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,7 +110,7 @@ GameObject:
   - component: {fileID: 2117982936465818334}
   - component: {fileID: 4508769846194489193}
   - component: {fileID: 6450592415617898236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleUSW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +159,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -172,7 +206,7 @@ GameObject:
   - component: {fileID: 1619180523211361832}
   - component: {fileID: 4227541557964399519}
   - component: {fileID: 6261797151843861615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'BubbleUSE '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +255,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -268,7 +302,7 @@ GameObject:
   - component: {fileID: 8484130730347456962}
   - component: {fileID: 4246057143902979908}
   - component: {fileID: 6233583603628694441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'BubbleDSW '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +351,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -364,7 +398,7 @@ GameObject:
   - component: {fileID: 7979408260639233214}
   - component: {fileID: 5249373720910777148}
   - component: {fileID: 3671095008525690481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleUNW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +447,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -460,7 +494,7 @@ GameObject:
   - component: {fileID: 7764238482750212612}
   - component: {fileID: 374617919168670897}
   - component: {fileID: 6146921624361705121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleMN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +543,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -556,7 +590,7 @@ GameObject:
   - component: {fileID: 3719966562430204613}
   - component: {fileID: 584868919011188473}
   - component: {fileID: 1245425976941287725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'BubbleUNE '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +639,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -652,7 +686,7 @@ GameObject:
   - component: {fileID: 10610662990695043}
   - component: {fileID: 8139502525098139598}
   - component: {fileID: 6756591895803614689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleMW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,7 +735,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -748,7 +782,7 @@ GameObject:
   - component: {fileID: 2685490146608809379}
   - component: {fileID: 7663849302138930613}
   - component: {fileID: 7017200060786890964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -809,7 +843,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 535500ef72dfd864eb07e7132409ada9, type: 2}
+  - {fileID: 2100000, guid: 96baeb38e3fd2b34789e3b0c7df95ebf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -856,7 +890,7 @@ GameObject:
   - component: {fileID: 1805668723267883074}
   - component: {fileID: 2242336734009285998}
   - component: {fileID: 8120552522744809834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +939,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 24dbc9b5b2099eb4e8baf0353cf6c8c5, type: 2}
+  - {fileID: 2100000, guid: c32aea8044d719c43aa51f8417894487, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -952,7 +986,7 @@ GameObject:
   - component: {fileID: 5484224318788602619}
   - component: {fileID: 779862648367303081}
   - component: {fileID: 8252856486693074503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleMS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -966,13 +1000,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6365728209062632779}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0.7164209, z: -0, w: 0.6976684}
   m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 5287221016568576075}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -91.52, z: 0}
 --- !u!33 &5484224318788602619
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1001,7 +1035,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: c32aea8044d719c43aa51f8417894487, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1048,7 +1082,7 @@ GameObject:
   - component: {fileID: 8781363577105663025}
   - component: {fileID: 5908960365191983567}
   - component: {fileID: 3726014067573649926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1131,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1144,7 +1178,7 @@ GameObject:
   - component: {fileID: 1876646533303939454}
   - component: {fileID: 320186861867719990}
   - component: {fileID: 6924076455223040228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,7 +1228,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7c65f6a002a8d04428b8d614444ffdce, type: 2}
+  - {fileID: 2100000, guid: fe6ebafc6f3d7254789c82b1f627fdef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1242,7 +1276,7 @@ GameObject:
   - component: {fileID: 2039432023223504479}
   - component: {fileID: 2745586200809103920}
   - component: {fileID: 2840070647347920496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 'BubbleDNW '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1338,7 +1372,7 @@ GameObject:
   - component: {fileID: 8709842573237893914}
   - component: {fileID: 3463350942689898319}
   - component: {fileID: 3120180772197389945}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleDNE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1387,7 +1421,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1434,7 +1468,7 @@ GameObject:
   - component: {fileID: 8210470538934809890}
   - component: {fileID: 895664609618752077}
   - component: {fileID: 8369476105155120239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BubbleDSE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1483,7 +1517,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a46ae7e622e291147bf7990a056c6aa2, type: 2}
+  - {fileID: 2100000, guid: 2a2e9f27c85b09b46a29135a37a3d3e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -9,6 +9,7 @@ public class flier : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        speed = Random.Range(4, 6);
         player = GameObject.Find("Player");
     }
 
